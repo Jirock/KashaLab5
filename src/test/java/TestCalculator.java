@@ -15,4 +15,9 @@ class TestCalculator {
         Assertions.assertEquals(3, calc.add(2,1));
     }
 
+    @org.junit.jupiter.api.Test
+    public void calcMultiNotNullTest(){
+        Calculator calc = new Calculator();
+        Assertions.assertEquals(0, calc.multiply(2,0));
+    }
 }
