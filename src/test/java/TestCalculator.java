@@ -9,5 +9,10 @@ class TestCalculator {
         Assertions.assertNotNull(calc);
     }
 
+    @org.junit.jupiter.api.Test
+    public void calcAdd2and1Test(){
+        Calculator calc = new Calculator();
+        Assertions.assertEquals(3, calc.add(2,2));
+    }
 
 }
