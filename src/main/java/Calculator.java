@@ -17,9 +17,10 @@ public class Calculator {
         if(a == 2 && b == 1){
             return 3;
         }
-
         return 4;
     }
 
-
+    public int multiply(double a, double b) {
+        return 0;
+    }
 }
