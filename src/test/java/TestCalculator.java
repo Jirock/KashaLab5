@@ -20,4 +20,10 @@ class TestCalculator {
         Calculator calc = new Calculator();
         Assertions.assertEquals(0, calc.multiply(2,0));
     }
+
+    @org.junit.jupiter.api.Test
+    public void calcMulti2x2Test(){
+        Calculator calc = new Calculator();
+        Assertions.assertEquals(4, calc.multiply(2,2));
+    }
 }
