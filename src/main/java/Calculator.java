@@ -13,7 +13,7 @@ public class Calculator {
      */
 
     public double add(double a, double b){
-        // todo доделать метод multiply
+        // todo доделать метод add
         if(a == 2 && b == 1){
             return 3;
         }
