@@ -13,7 +13,7 @@ public class Calculator {
      */
 
     public double add(double a, double b){
-        //todo а
+        // todo доделать метод multiply
         if(a == 2 && b == 1){
             return 3;
         }
@@ -27,6 +27,7 @@ public class Calculator {
      * @return результат умножения двух аргументов
      */
     public int multiply(double a, double b) {
+        // todo доделать метод multiply
         if(a == 2 && b == 2){
             return 4;
         }
