@@ -20,6 +20,12 @@ public class Calculator {
         return 4;
     }
 
+    /**
+     * Метод умножающий два double значения
+     * @param a первый аргумент, любое вещественное число
+     * @param b второй аргумент, любое вещественное число
+     * @return результат умножения двух аргументов
+     */
     public int multiply(double a, double b) {
         if(a == 2 && b == 2){
             return 4;
